@@ -32,6 +32,7 @@ function repeater(str, options) {
         for (let j = 0 ; j < options.additionRepeatTimes; j++) {
           j === 0 ? res += String(options.addition) : res += (options.additionSeparator ? options.additionSeparator : '|') + String(options.addition);
         }
+
       }
 
     }
